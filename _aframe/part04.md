@@ -55,8 +55,8 @@ The sphere will react to the click-event, the mouseenter-event, and the mouselea
 	</body>
 {% endhighlight %}
 
-The function defined in the component is executed once when the component is initialized for a particular object. It adds three eventListeners (for eventListeners, see Lesson 5). One event fires when the user clicks on the particular object. When that happens, the program prints the message 'I was clicked at: ' along with the point where the cursor indicated contact with the object. The other two events fire when the cursor starts hovering over the object or moves away from the object. Hovering over the object will cause it to become translucent (opacity = .5). Moving away will cause the object to return to its full opacity. 
+The function defined in the component is executed once when the component is initialized for a particular object. It adds three eventListeners (for eventListeners, see [lesson 5](http://argonjs.io/design-tools/aframe/part05/)). One event fires when the user clicks on the particular object. When that happens, the program prints the message 'I was clicked at: ' along with the point where the cursor indicated contact with the object. The other two events fire when the cursor starts hovering over the object or moves away from the object. Hovering over the object will cause it to become translucent (opacity = .5). Moving away will cause the object to return to its full opacity. 
 
 You can put any Javascript code you want into these events. You could make audio play when the user clicks on the sphere, or you could make the sphere rotate, or display text on the screen. This is how you introduce interactivity into the scene. 
 
-You can learn more about components in Lesson 12. They are a key feature of working with A-Frame (and Argon-aframe).
+You can learn more about components in [lesson 12](http://argonjs.io/design-tools/aframe/part12/). They are a key feature of working with A-Frame (and Argon-aframe).
