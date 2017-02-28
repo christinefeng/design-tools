@@ -5,13 +5,13 @@ title: 'Lesson 3: CSSObjects'
 > Download [Argon4](http://argonjs.io/argon-app) and the [Tutorial Source Code](https://github.com/argonjs/design-aids/tree/gh-pages/code). <br> This tutorial uses the *cssobject* and *resources* directories.<br> **[Demo in Argon4](https://github.com/argonjs/design-aids/tree/gh-pages/code/cssobject/)**
 
 
-In Lesson 2 we saw how to place boxes and other geometric objects in the scene. But what if you want to put text and images in the scene as well: that is, the materials you are used to creating and manipulating on a web page using html and css? Suppose you want to place a label reading "Argon + Aframe" above a box in the space. We can do this by using CSSObjects. 
+In [lesson 2](http://argonjs.io/design-tools/aframe/part02/), we saw how to place boxes and other geometric objects in the scene. But what if you want to put text and images in the scene as well: that is, the materials you are used to creating and manipulating on a web page using html and css? Suppose you want to place a label reading "Argon + A-Frame" above a box in the space. We can do this by using CSSObjects. 
 
 Displaying graphic objects on a computer screen is called "rendering," In order to render objects, you need (not surprisingly) a renderer, and there are different kinds. For Argon-aframe there are currently two available renderers: the WebGL renderer and a CSS renderer. The names WebGL and CSS refer to different graphic systems, and each is preferred for certain kinds of objects. In Argon, you can combine 3D objects using the WebGL renderer with 3D CSSobjects (of text or 2D image) using the CSS renderer. 
 
-The previous Lesson 2 showed you how to create simple 3D content for the WebGL renderer such as `a-box`. Now we create the label as a CSSObject. 
+The [previous lesson](http://argonjs.io/design-tools/aframe/part02/) showed you how to create simple 3D content for the WebGL renderer such as `a-box`. Now we create the label as a CSSObject. 
 
-First, here is the css that defines the class `boxface`. It can go in the `<head>` of the html file (along with the script tags we have in lesson 2). 
+First, here is the css that defines the class `boxface`. It can go in the `<head>` of the html file (along with the script tags we have in [lesson 2](http://argonjs.io/design-tools/aframe/part02/)). 
  
 {% highlight html %}
 .boxface {
@@ -47,7 +47,7 @@ Now in the `<body>` of the html file, we put:
     </ar-scene>
 {% endhighlight %}
 
-Most of these tags are familiar from Lesson 2. You will recognize `<ar-scene>` to define the whole scene as well as the first `<a-entity>` and the `<a-box>`.  Below that you will see nested entity tags. `<a-entity position="0 3 0">` positions the whole nested group at x = 0;y=3;z=0. This will put the label 3 meters above origin (because y indicates up and down) and so above the box; it also rotates the label by 45 degrees along the y axis (so that the text will face the camera). 
+Most of these tags are familiar from [lesson 2](http://argonjs.io/design-tools/aframe/part02/). You will recognize `<ar-scene>` to define the whole scene as well as the first `<a-entity>` and the `<a-box>`.  Below that you will see nested entity tags. `<a-entity position="0 3 0">` positions the whole nested group at x = 0;y=3;z=0. This will put the label 3 meters above origin (because y indicates up and down) and so above the box; it also rotates the label by 45 degrees along the y axis (so that the text will face the camera). 
 
 The next entity is the one that actually defines the CSSObject:
 
