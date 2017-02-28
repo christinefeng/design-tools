@@ -5,7 +5,9 @@ title: 'Lesson 7: Geolocation'
 > Download [Argon4](http://argonjs.io/argon-app) and the [Tutorial Source Code](https://github.com/argonjs/design-aids/tree/gh-pages/code). <br> This tutorial uses the *geolocation* and *resources* directories.<br> **[Demo in Argon4](https://github.com/argonjs/design-aids/tree/gh-pages/code/geolocation/)**
 
 
-Key features of augmented reality include 1. the ability of associating data objects with places in the world and 2. displaying those objects at those places. 
+Key features of augmented reality include:
+1. the ability of associating data objects with places in the world
+2. displaying those objects at those places
 
 The `<ar-geopose>` primitive is Argon-aframe's way of locating objects in physical space (of the planet). The `<ar-geopose>` primitive creates an entity with a `referenceframe` component. This component defines the position and/or rotation of the entity by an LLA (longitude, latitude, altitude), so you can locate your object anywhere on the earth relatively accurately by using this tag. 
 
@@ -50,4 +52,4 @@ So if we wanted to make a "poster" and set it in space at this location, we coul
 
 {% endhighlight %}
 
-In Lesson 2a, we saw how to turn HTML divs into CSSObjects. This is what we do here. The div whose id is "mydiv" is converted to a CSSObject, scaled and positioned at the origin (0 0 0) of the geopose entity GT. The billboard entity wrapped around mydiv makes sure that the this entity and everything nested inside will always turn to face the camera (so the user can read it). That effect is called "billboarding." 
+In [lesson 2](http://argonjs.io/design-tools/aframe/part02/), we saw how to turn HTML divs into CSSObjects. This is what we do here. The div whose id is "mydiv" is converted to a CSSObject, scaled and positioned at the origin (0 0 0) of the geopose entity GT. The billboard entity wrapped around mydiv makes sure that the this entity and everything nested inside will always turn to face the camera (so the user can read it). That effect is called "billboarding." 
