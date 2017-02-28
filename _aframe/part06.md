@@ -18,8 +18,8 @@ Try this in Argon:
 </ar-scene>
 {% endhighlight %}
 
-For audio, A-Frame has a sound component that you can attach to entities. See the [aframe documentation](https://aframe.io/docs/0.3.0/components/sound.html). This component should work on Argon-aframe just as it does in A-Frame. 
+For audio, A-Frame has a sound component that you can attach to entities. See the [A-Frame documentation](https://aframe.io/docs/0.3.0/components/sound.html). This component should work on Argon-aframe just as it does in A-Frame. 
 
-If these entities and components don't give you the capabilities that you need, you can also create your own component (see lesson 12) that can use the HTML audio and video tags to have more control over the presentation and interaction with the media. 
+If these entities and components don't give you the capabilities that you need, you can also create your own component (see [lesson 12](http://argonjs.io/design-tools/aframe/part12/)) that can use the HTML audio and video tags to have more control over the presentation and interaction with the media. 
 
 There are limitations to playing a video on iOS devices. See how A-Frame handles those limitations [here](https://aframe.io/docs/0.4.0/primitives/a-video.html).
