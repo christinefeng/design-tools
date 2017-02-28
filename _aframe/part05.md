@@ -13,7 +13,7 @@ eventListeners go far beyond A-Frame. In conventional web programming, you can a
 element.addEventListener(event, function);
 {% endhighlight %}
 
-addEventListener adds the event to some element in the DOM that you specify, such as a button or an image. The event name is one of a long list known to the DOM system: "click", "mouseup", "mousedown", and so on. In this case, "function" is the name of the function that is called when that event occurs. This is explained in more detail in the [W3 documentation](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+addEventListener adds the event to some element in the DOM that you specify, such as a button or an image. The event name is one of a long list known to the DOM system: "click", "mouseup", "mousedown", and so on. In this case, "function" is the name of the function that is called when that event occurs. This is explained in more detail in the [W3 documentation](http://www.w3schools.com/js/js_htmldom_eventlistener.asp).
 
 For Argon-aframe in particular, there are two ways that you can attach eventListeners to your objects: either directly to a single object or through a component (which can be used for multiple objects). 
 
