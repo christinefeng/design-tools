@@ -5,7 +5,7 @@ title: 'Lesson 5: Adding an Eventlistener'
 > Download [Argon4](http://argonjs.io/argon-app) and the [Tutorial Source Code](https://github.com/argonjs/design-aids/tree/gh-pages/code). <br> This tutorial uses the *event* and *resources* directories.<br> **[Demo in Argon4](https://github.com/argonjs/design-aids/tree/gh-pages/code/event/)**
 
 
-In lesson 4, we saw an example of an eventListener added to a component. Here in Lesson 5, we describe eventListeners in more detail. 
+In [lesson 4](http://argonjs.io/design-tools/aframe/part04/), we saw an example of an eventListener added to a component. In this lesson, we describe eventListeners in more detail. 
 
 eventListeners go far beyond A-Frame. In conventional web programming, you can add eventListeners to handle many different kinds of events from objects and actions in the DOM. For example, you can listen for an event when the HTML file has been fully loaded; or an event when the user clicks on a button; or when the user releases the mouse button; and so on. In Javascript, this is the structure:
 
@@ -17,7 +17,7 @@ addEventListener adds the event to some element in the DOM that you specify, suc
 
 For Argon-aframe in particular, there are two ways that you can attach eventListeners to your objects: either directly to a single object or through a component (which can be used for multiple objects). 
 
-Let's look again at the code for the sphere from Lesson 4.
+Let's look again at the code for the sphere from [lesson 4](http://argonjs.io/design-tools/aframe/part04/).
 
 {% highlight html %}
 
@@ -45,7 +45,7 @@ function myReportingFunction(){
 </script>
 {% endhighlight %}
 
-You could do this individually for each object and each event that you want to attach. This is sometimes useful, but, as noted, it is often better to create a component (see Lesson 12). 
+You could do this individually for each object and each event that you want to attach. This is sometimes useful, but, as noted, it is often better to create a component (see [lesson 12](http://argonjs.io/design-tools/aframe/part12/)). 
 
 
 
